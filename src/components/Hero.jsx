@@ -10,8 +10,10 @@ const HeroSection = () => {
         </p>
 
         <div className="hero-btn">
-          <button>Shop Now </button>
-          <button className="secondary-btn">Category</button>
+          <button> <a href="/home">Shop Now </a></button>
+          <button className="secondary-btn">
+            <a href="/category">Category</a>
+          </button>
         </div>
 
         <div className="shopping">

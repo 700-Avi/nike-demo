@@ -12,12 +12,20 @@ const Navigation = () => {
         <li>
           <a href="/home">Menu</a>
         </li>
-        <li href="#">Location</li>
-        <li href="#">About</li>
-        <li href="#">Contact</li>
+        <li>
+          <a href="/">Location</a>
+        </li>
+        <li>
+          <a href="/">About</a>
+        </li>
+        <li>
+          <a href="/">Contact</a>
+        </li>
       </ul>
 
-      <button>login</button>
+      <button>
+        <a href="/login">Login</a>
+      </button>
     </nav>
   );
 };
